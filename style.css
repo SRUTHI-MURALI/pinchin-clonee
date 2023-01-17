@@ -1,0 +1,70 @@
+.part3 img{
+    /* line-height: 4; */
+    margin-bottom: 4rem;
+    margin-left: 48%;
+
+}
+.dropdown ul{
+    list-style-type: none;
+}
+
+.centered{
+    position: absolute;
+  top: 40%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.centered h2{
+    font-size: 2.8rem;
+    font-weight: 500;
+    background-color:rgba(0, 0, 0, 0.6);
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.card{
+    width: 21rem;
+    height: 13rem;
+    padding: 0 0 0 0;
+    transition:tranform .2s;
+
+    
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.card-body {
+    padding: 0;
+    object-fit: cover;  
+}
+.card img{
+    width: 21rem;
+    height: 13rem;
+    padding: 0;
+    object-fit: cover;
+    z-index: -1;
+    
+}
+.footer{
+    width: 100%;
+    background-color: grey;
+}
+.footer a img{
+    width: 2rem;
+}
+
+
+
+
+/* response */
+@media only screen and (max-width: 576px) {
+    .carousel-item img {
+     height: 40vh;
+    } .carousel-item h2 {
+     font-size: 1.2em;
+       }    
+}
+
+/* response */
